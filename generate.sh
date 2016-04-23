@@ -1,5 +1,5 @@
 UBUNTU_VERSIONS=(14.04 15.04 15.10 16.04)
-JDK_VERSIONS=(oracle_jdk_8.91.14 oracle_jdk_8.92.14 oracle_jdk7.80.15 oracle_jdk8.66.17 oracle_jdk7.67.15)
+JDK_VERSIONS=(oracle_jdk8.91.14 oracle_jdk8.92.14 oracle_jdk7.80.15 oracle_jdk8.66.17 oracle_jdk7.67.15)
 TOMCAT_VERSIONS=(9.0.0.M4 7.0.65 8.5.0 8.0.33 8.0.28 8.0.9)
 
 
