@@ -24,6 +24,6 @@ ENV PATH ${PATH}:${CATALINA_HOME}/bin
 
 EXPOSE 8080
 
-ADD server.xml /opt/tomcat/tomcat-${TOMCAT_VERSION}/.
+ADD server.xml /opt/tomcat/tomcat-${TOMCAT_VERSION}/conf/.
 
 CMD catalina.sh run
