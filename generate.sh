@@ -12,7 +12,7 @@ for UBUNTU_VERSION in "${UBUNTU_VERSIONS[@]}"
          do
          echo "$TOMCAT_VERSION/$JDK_VERSION/ubuntu$UBUNTU_VERSION" 
          mkdir -p $TOMCAT_VERSION/$JDK_VERSION/ubuntu$UBUNTU_VERSION
-         cp server.xml $TOMCAT_VERSION/$JDK_VERSION/ubuntu$UBUNTU_VERSION/.
+         rm -f $TOMCAT_VERSION/$JDK_VERSION/ubuntu$UBUNTU_VERSION/server.xml
          ./Dockerfile.sh $UBUNTU_VERSION $JDK_VERSION $TOMCAT_VERSION > $TOMCAT_VERSION/$JDK_VERSION/ubuntu$UBUNTU_VERSION/Dockerfile
          done
       done 

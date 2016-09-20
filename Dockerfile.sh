@@ -39,7 +39,6 @@ echo ""
 echo ""
 echo "EXPOSE 8080"
 echo ""
-echo "ADD server.xml /opt/tomcat/tomcat-\${TOMCAT_VERSION}/conf/." 
 echo ""
 
 echo "CMD catalina.sh run" 
