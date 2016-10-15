@@ -25,7 +25,7 @@ echo "ENV TOMCAT_VERSION $PARAM_TOMCAT_VERSION"
 
 echo "ENV TOMCAT_HOME /opt/tomcat/tomcat-\${TOMCAT_VERSION}"
 echo "ENV CATALINA_HOME /opt/tomcat/tomcat-\${TOMCAT_VERSION}"
-echo "ENV TOMCAT_TGZ_URL https://www.apache.org/dist/tomcat/tomcat-${TOMCAT_VERSION_ARRAY[0]}/v$PARAM_TOMCAT_VERSION/bin/apache-tomcat-$PARAM_TOMCAT_VERSION.tar.gz"
+echo "ENV TOMCAT_TGZ_URL http://archive.apache.org/dist/tomcat/tomcat-${TOMCAT_VERSION_ARRAY[0]}/v$PARAM_TOMCAT_VERSION/bin/apache-tomcat-$PARAM_TOMCAT_VERSION.tar.gz"
 echo "ENV TOMCAT_FOLDER apache-tomcat-\${TOMCAT_VERSION}"
 
 echo ""
