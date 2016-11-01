@@ -29,7 +29,7 @@ echo "ENV TOMCAT_TGZ_URL http://archive.apache.org/dist/tomcat/tomcat-${TOMCAT_V
 echo "ENV TOMCAT_FOLDER apache-tomcat-\${TOMCAT_VERSION}"
 
 echo ""
-
+echo "RUN apt-get install vim -y"
 echo "RUN  wget -O tomcat.tar.gz \${TOMCAT_TGZ_URL} ; tar -xvf tomcat.tar.gz; mkdir -p \${CATALINA_HOME};mv \${TOMCAT_FOLDER}/* \${CATALINA_HOME}; rm tomcat.tar.gz; rm -fR \${TOMCAT_FOLDER} rm -fR \${CATALINA_HOME}\bin\*.bat"
 
 echo ""
